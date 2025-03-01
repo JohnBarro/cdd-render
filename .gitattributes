@@ -2,3 +2,5 @@
 node_modules filter=lfs diff=lfs merge=lfs -text
 *.ts filter=lfs diff=lfs merge=lfs -text
 *.js filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
