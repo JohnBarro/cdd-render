@@ -1,18 +1,3 @@
-import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
-import MainView from "../views/MainView";
-import MapViewScreen from "../views/MapViewScreen";
-
-const Stack = createStackNavigator();
-
-export default function AppNavigator() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Main">
-        <Stack.Screen name="Main" component={MainView} />
-        <Stack.Screen name="Map" component={MapViewScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:41f4b91b3a73e79dcbae503c4b56b8f302cc50f609b1da7127af8aff0f577835
+size 594
