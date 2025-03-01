@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fastapi-backend
+    runtime: python
+    region: oregon
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: MONGO_URI
+        value: "your_mongo_uri"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
