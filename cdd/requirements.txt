@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+pydantic
+python-multipart
+pymongo  # If using MongoDB
+
+
