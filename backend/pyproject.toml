@@ -1,15 +1,15 @@
-[project]
+[tool.poetry]
 name = "backend"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "BarroJohnNems",email = "johnbarro977@gmail.com"}
-]
+authors = ["BarroJohnNems <johnbarro977@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-]
 
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+pydantic = "^2.6.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
